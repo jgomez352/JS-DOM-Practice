@@ -15,4 +15,9 @@ All inquiries regarding the use of this code outside of educational purposes nee
 I will be editing the code made available for my own education and to help other Front-End Web Developer Nanodegree students whenever possible.
 
 ## Making Content Changes Using JavaScript
-A new branch has been added to track changes I've made with me code.
+A new branch has been added to track changes made to the website with my code.
+
+Changes where made to the cards at the top right of the page.
+A new card was created using JS only.
+Header and subheaders were changed using insertAdjacentHTML
+Changed the $199 cost by removing content and adding content using only JS
