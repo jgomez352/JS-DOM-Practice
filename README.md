@@ -14,3 +14,7 @@ All inquiries regarding the use of this code outside of educational purposes nee
 ## For Educational Purposes
 
 I will be editing the code made available for my own education and to help other Front-End Web Developer Nanodegree students whenever possible.
+
+#Changing Content Using JS#
+
+Changing content using JavaScript is the first branch for this project.
