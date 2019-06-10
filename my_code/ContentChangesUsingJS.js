@@ -4,23 +4,24 @@
  The following code will make changes to the original Udacity page through JS
 */
 
+//Event listener to start changes to the website with one click in an y place
+document.addEventListener('click', changeWebsite);
 function changeWebsite() {
 
     //Change cards by changing the text using difrent methods and adding one more card only using JS
     changeCards()
 
     //Tested adding an element at the end of the webpage
-    newElement();
+    newElement()
 
     //next we will append already existing text in the first h1 and h6 tag
     ChangeHeaders()
 
     //Will use JS to remove costs Text and replace it again with a new value
     removeCosts()
-    
+
     return
 };
-
 function changeCards(){
     //Edited the first three card's content
     const card = document.querySelector('#ga-7096a2')
@@ -89,4 +90,5 @@ function removeCosts() {
    // const NewCost = document.c
    // CostParent.appendChild()
 
+    CostParent.insertAdjacentHTML('beforeend', '<h4 class="white">Only $9K</h4>');
 };
